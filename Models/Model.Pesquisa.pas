@@ -35,6 +35,7 @@ type
     qryProdutosval_venda: TFMTBCDField;
   private
     { Private declarations }
+    function Operador(aSQL: string): string;
   public
     { Public declarations }
     gSQLOri: String;
@@ -52,11 +53,19 @@ implementation
 
 uses
   Model.Dados,
-  View.Pesquisa, Comum.Funcoes;
+  View.Pesquisa;
 
 {$R *.dfm}
 
 { TModelPesquisa }
+
+function TModelPesquisa.Operador(aSQL: string): string;
+begin
+  if Pos('WHERE', UpperCase(aSQL)) > 0 then
+    Result := ' AND '
+  else
+    Result := ' WHERE ';
+end;
 
 function TModelPesquisa.PesquisarCliente(ACampo, ACampoAlias, AValor, AViewCad: String): Boolean;
 begin

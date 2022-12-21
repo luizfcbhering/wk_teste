@@ -229,13 +229,11 @@ const
                '   :codigo_cli,       '+
                '   :dat_pedido,       '+
                '   :val_pedido)       ';
-
   UPD_PEDIDO = 'UPDATE pedidos SET            '+
                '  codigo_cli = :codigo_cli ,  '+
                '  dat_pedido = :dat_pedido ,  '+
                '  val_pedido = :val_pedido    '+
                'WHERE codigo = :codigo        ';
-
   INS_ITENS = 'INSERT INTO pedidositens ( '+
               '  codigo_ped,              '+
               '  codigo_prod,             '+

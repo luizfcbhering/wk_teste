@@ -14,6 +14,7 @@ object ModelPesquisa: TModelPesquisa
       FieldName = 'codigo'
       Origin = 'codigo'
       ProviderFlags = [pfInWhere, pfInKey]
+      ReadOnly = True
     end
     object qryProdutosdescricao: TStringField
       Tag = 1
@@ -43,6 +44,7 @@ object ModelPesquisa: TModelPesquisa
       FieldName = 'codigo'
       Origin = 'codigo'
       ProviderFlags = [pfInWhere, pfInKey]
+      ReadOnly = True
     end
     object qryPessoasnome: TStringField
       Tag = 1

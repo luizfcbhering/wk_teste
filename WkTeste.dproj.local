@@ -11,19 +11,21 @@
     <Transaction>2022/08/07 09:49:41.000.127,D:\WK_Teste\Unit1.dfm=D:\WK_Teste\uDM.dfm</Transaction>
     <Transaction>2022/12/21 04:33:35.000.113,D:\WK_Teste\uDM.pas=D:\WK_Teste\Model.pas</Transaction>
     <Transaction>2022/12/21 04:33:35.000.113,D:\WK_Teste\uDM.dfm=D:\WK_Teste\Model.dfm</Transaction>
-    <Transaction>2022/12/21 04:33:42.000.217,D:\WK_Teste\Model.dfm=D:\WK_Teste\Model.Dados.dfm</Transaction>
     <Transaction>2022/12/21 04:33:42.000.217,D:\WK_Teste\Model.Dados=D:\WK_Teste\Model.Dados.Dados</Transaction>
-    <Transaction>2022/12/21 04:33:56.000.136,D:\WK_Teste\uPrincipal.dfm=D:\WK_Teste\View.Principal.dfm</Transaction>
+    <Transaction>2022/12/21 04:33:42.000.217,D:\WK_Teste\Model.dfm=D:\WK_Teste\Model.Dados.dfm</Transaction>
     <Transaction>2022/12/21 04:33:56.000.136,D:\WK_Teste\uPrincipal.pas=D:\WK_Teste\View.Principal.pas</Transaction>
+    <Transaction>2022/12/21 04:33:56.000.136,D:\WK_Teste\uPrincipal.dfm=D:\WK_Teste\View.Principal.dfm</Transaction>
     <Transaction>2022/12/21 04:34:11.000.452,D:\WK_Teste\Model.Dados.pas=</Transaction>
     <Transaction>2022/12/21 04:34:57.000.034,=D:\WK_Teste\Comum\View.Pesquisa.pas</Transaction>
     <Transaction>2022/12/21 04:35:02.000.119,=D:\WK_Teste\Models\Model.Dados.pas</Transaction>
     <Transaction>2022/12/21 04:35:02.000.219,=D:\WK_Teste\Models\Model.Pesquisa.pas</Transaction>
     <Transaction>2022/12/21 04:38:21.000.623,=D:\WK_Teste\Comum\Comum.Funcoes.pas</Transaction>
+    <Transaction>2022/12/21 10:41:59.946,D:\WK_Teste\Comum\Comum.Funcoes.pas=</Transaction>
+    <Transaction>2022/12/21 10:42:24.610,=D:\WK_Teste\Comum\Comum.Funcoes.pas</Transaction>
+    <Transaction>2022/12/21 10:43:46.307,D:\WK_Teste\Comum\Comum.Funcoes.pas=</Transaction>
   </Transactions>
 	<ProjectSortOrder AutoSort="0" SortType="0">
     <File Path="Comum"/>
-    <File Path="Comum\Comum.Funcoes.pas"/>
     <File Path="Comum\View.Pesquisa.pas"/>
     <File Path="Comum\View.Pesquisa.dfm"/>
     <File Path="Models"/>

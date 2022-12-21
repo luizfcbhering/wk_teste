@@ -18,6 +18,8 @@ uses
   Vcl.Grids,
   Vcl.DBGrids,
   Vcl.StdCtrls,
+  Vcl.Buttons,
+  Vcl.DBCtrls,
 
   Data.DB,
 
@@ -29,7 +31,7 @@ uses
   FireDAC.Phys.Intf,
   FireDAC.DApt.Intf,
   FireDAC.Comp.DataSet,
-  FireDAC.Comp.Client, Vcl.Buttons, Vcl.Mask, Vcl.DBCtrls;
+  FireDAC.Comp.Client;
 
 type
   TfPrincipal = class(TForm)
@@ -108,7 +110,9 @@ implementation
 
 {$R *.dfm}
 
-uses Model.Pesquisa, Model.Dados;
+uses
+  Model.Pesquisa,
+  Model.Dados;
 
 procedure TfPrincipal.btnGravarPedidoClick(Sender: TObject);
 begin

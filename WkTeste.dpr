@@ -5,8 +5,7 @@ uses
   View.Principal in 'View.Principal.pas' {fPrincipal},
   View.Pesquisa in 'Comum\View.Pesquisa.pas' {ViewPesquisa},
   Model.Dados in 'Models\Model.Dados.pas' {ModelDados: TDataModule},
-  Model.Pesquisa in 'Models\Model.Pesquisa.pas' {ModelPesquisa: TDataModule},
-  Comum.Funcoes in 'Comum\Comum.Funcoes.pas';
+  Model.Pesquisa in 'Models\Model.Pesquisa.pas' {ModelPesquisa: TDataModule};
 
 {$R *.res}
 

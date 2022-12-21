@@ -99,7 +99,6 @@ object fPrincipal: TfPrincipal
     Height = 39
     Align = alBottom
     TabOrder = 3
-    ExplicitTop = 385
     object btnSair: TBitBtn
       Left = 625
       Top = 6
